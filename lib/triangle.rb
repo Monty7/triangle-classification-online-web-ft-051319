@@ -18,6 +18,7 @@ class Triangle
   
   class TriangleError < StandardError
     def message
+      "Hey what the hell!"
     end
   end
 end
