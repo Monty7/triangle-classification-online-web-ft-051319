@@ -13,6 +13,8 @@ class Triangle
       :isosceles
     elsif length1 != length2 && length1 != length3
       :scalene
+    else
+      
     end
   end
   
