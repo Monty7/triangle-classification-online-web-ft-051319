@@ -12,7 +12,7 @@ class Triangle
       begin
         raise TriangleError
         rescue TriangleError => error 
-        
+          puts error.message
       end
     elsif length1 == length2 && length1 == length3
       :equilateral
