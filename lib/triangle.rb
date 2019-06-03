@@ -23,7 +23,7 @@ class Triangle
   
   class TriangleError < StandardError
     def message
-      "Hey what the hell!"
+      "Enter a vaild length!"
     end
   end
 end
